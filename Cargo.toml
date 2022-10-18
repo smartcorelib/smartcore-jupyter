@@ -1,0 +1,19 @@
+[package]
+name = "smartcore-jupyter"
+description = "Jupyter notebooks for Rust smartcore"
+homepage = "https://smartcorelib.org"
+version = "0.0.1"
+authors = ["SmartCore Developers"]
+edition = "2018"
+license = "Apache-2.0"
+documentation = "https://docs.rs/smartcore"
+repository = "https://github.com/smartcorelib/smartcore"
+readme = "README.md"
+keywords = ["machine-learning", "statistical", "ai", "optimization", "linear-algebra"]
+categories = ["science"]
+
+[dependencies]
+
+[dependencies.smartcore]
+git = "https://github.com/smartcorelib/smartcore"
+branch = "v0.5-wip"
