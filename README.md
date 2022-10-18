@@ -4,7 +4,9 @@ Try [Smartcore](https://smartcorelib.org) in your browser using Jupyter Notebook
 
 ## Install
 
-Miniconda3 is needed, download latest version from [here](https://docs.conda.io/en/latest/miniconda.html). This setup is based on [evcxr](https://github.com/google/evcxr/). Once Miniconda3 is installed: 
+Miniconda3 is needed, download latest version from [here](https://docs.conda.io/en/latest/miniconda.html). This setup is based on [evcxr](https://github.com/google/evcxr/).
+
+Once Miniconda3 is installed: 
 ```
 $ conda create --name smartenv
 $ conda activate smartenv
@@ -25,3 +27,5 @@ Run `jupyter notebook` while the Conda environment is active:
 ```
 
 Open notebooks examples in your browser.
+
+Feel free to contribute your notebook.
