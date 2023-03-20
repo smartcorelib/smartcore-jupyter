@@ -1,6 +1,6 @@
 # Smartcore with Jupyter
 
-Try latest [Smartcore](https://smartcorelib.org) (v0.5) in your browser using Jupyter Notebooks.
+Try latest [Smartcore](https://smartcorelib.org) (v0.3) in your browser using Jupyter Notebooks.
 
 ## Install
 
