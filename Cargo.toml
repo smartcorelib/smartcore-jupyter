@@ -16,4 +16,4 @@ categories = ["science"]
 
 [dependencies.smartcore]
 git = "https://github.com/smartcorelib/smartcore"
-branch = "v0.5-wip"
+branch = "development"
