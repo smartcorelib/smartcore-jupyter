@@ -10,9 +10,9 @@ Once Miniconda3 is installed:
 ```
 $ conda create --name smartenv
 $ conda activate smartenv
-$ conda install -y -c conda-forge nb_conda_kernels
-$ cargo install evcxr_jupyter
-$ evcxr_jupyter --install
+(smartenv) $ conda install -y -c conda-forge nb_conda_kernels
+(smartenv) $ cargo install --version 0.18.0 evcxr_jupyter --force
+(smartenv) $ evcxr_jupyter --install
 ```
 
 You can find tutorials at:
