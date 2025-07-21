@@ -2,8 +2,9 @@
 
 Try latest [Smartcore](https://smartcorelib.org) (development branch) in your browser using Jupyter Notebooks.
 
-## Install
+## Install and Usage
 
+### Miniconda
 Miniconda3 is needed, download latest version from [here](https://docs.conda.io/en/latest/miniconda.html). This setup is based on [evcxr](https://github.com/google/evcxr/).
 
 Once Miniconda3 is installed: 
@@ -19,8 +20,6 @@ You can find tutorials at:
 * [link](https://depth-first.com/articles/2020/09/21/interactive-rust-in-a-repl-and-jupyter-notebook-with-evcxr/)
 * [link](https://datacrayon.com/posts/programming/rust-notebooks/setup-anaconda-jupyter-and-rust/)
 
-## Usage
-
 Run `jupyter notebook` while the Conda environment is active:
 ```
 (smartenv) $ jupyter notebook
@@ -29,3 +28,18 @@ Run `jupyter notebook` while the Conda environment is active:
 Open notebooks examples in your browser.
 
 Feel free to contribute your notebook.
+
+### uv
+As an alternative to Miniconda3, you can use `uv`, a modern Python package and environment manager built in Rust. Learn more and install `uv` [here](https://docs.astral.sh/uv/getting-started/installation/).
+
+Once `uv` is installed:
+```bash
+cargo install evcxr_jupyter
+evcxr_jupyter --install
+uv init
+uv add notebook
+```
+You can launch a notebook using:
+```bash
+uv run jupyter notebook
+```
